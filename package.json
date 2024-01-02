@@ -1,9 +1,8 @@
 {
   "name": "basic_setup",
-  "packageManager": "yarn@4.0.2",
   "description": "",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "start:prod": "node ./dist/server.js",
     "start:dev": "ts-node-dev --respawn --transpile-only src/server.ts",
@@ -27,7 +26,6 @@
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.2.2"
   },
-  
   "author": "",
   "license": "ISC"
 }
