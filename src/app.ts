@@ -12,7 +12,7 @@ app.get('/', (req: Request, res: Response) => {
   res.send(text)
 })
 
-// application routes
+// application routes added here
 app.use('/api/v1/weather', DataRoute)
 
 
